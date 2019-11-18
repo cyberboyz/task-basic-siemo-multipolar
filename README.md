@@ -7,6 +7,7 @@ Repository ini digunakan untuk membuat kode untuk 7 task basic Divisi SIEMO di M
 ## 1 - Basic
 
 Aplikasi yang dibuat pada task basic berfungsi untuk melakukan filter kata berulang yang tersusun secara berurutan selain kata ulang. Selain itu, jumlah perulangan tiap kata dan indeks pertama munculnya kata yang diulang juga diperlihatkan pada kolom `Kata Berulang`.
+
 Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
 
 ```
@@ -47,6 +48,11 @@ Setelah itu, kode bisa dijalankan pada kelas InputStringServlet. Aplikasi servle
 ![Peek recording itself](https://github.com/cyberboyz/task-basic-siemo-multipolar/blob/master/asset/1-basic.gif)
 
 ## 2 - Intermediate
+
+Aplikasi yang dibuat pada task intermediate berfungsi untuk mencatat informasi karyawan (`nama`, `id`, `tanggal_masuk`, `golongan`, `gaji_per_bulan`). Fitur yang terdapat pada aplikasi ini adalah:
+- Input golongan dan gaji masing-masing golongan
+- Input data karyawan
+- Tampilan data karyawan urut sesuai gaji / tanggal masuk
 
 Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
 
