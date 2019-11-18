@@ -93,6 +93,50 @@ Setelah itu, kode bisa dijalankan pada kelas EmployeeServlet. Aplikasi servlet a
 
 ![Peek recording itself](https://github.com/cyberboyz/task-basic-siemo-multipolar/blob/master/asset/2-intermediate.gif)
 
+## 3 - Advanced
+
+Aplikasi yang dibuat pada task advanced adalah aplikasi servlet karyawan yang memanggil aplikasi servlet insentif untuk melakukan perhitungan insentif. 
+
+Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
+
+```
+CREATE DATABASE `multipolar_advanced`;
+
+USE `multipolar_advanced`;
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+07:00";
+
+CREATE TABLE `employee` (
+  `id` int(50) NOT NULL,
+  `name` varchar(250) NOT NULL,
+  `entry_date` date NOT NULL,
+  `employee_group` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `employee_group` (
+  `employee_group` varchar(50) NOT NULL,
+  `monthly_salary` int(50) NOT NULL,
+  `incentive_percentage` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `employee`
+  ADD KEY `employee_group` (`employee_group`);
+
+ALTER TABLE `employee_group`
+  ADD PRIMARY KEY (`employee_group`);
+
+ALTER TABLE `employee`
+  ADD CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`employee_group`) REFERENCES `employee_group` (`employee_group`);
+COMMIT;
+```
+
+Kode bisa dijalankan pada kelas EmployeeServlet di aplikasi pertama dan kelas IncentiveServlet di aplikasi kedua. Setelah itu, aplikasi bisa diakses melalui URL http://localhost:8080/. Demonstrasi dari aplikasi ini dapat dilihat pada animasi di bawah ini.
+
+![Peek recording itself](https://github.com/cyberboyz/task-basic-siemo-multipolar/blob/master/asset/3-advanced.gif)
+
 ## Pengujian dengan Postman
 
 Untuk pengujian melalui Postman dilakukan dengan menggunakan <your_url>/v1/<nama_resource>. Adapun list dari resource yang dapat diakses adalah :
