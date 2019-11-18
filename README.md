@@ -6,14 +6,17 @@ Repository ini digunakan untuk membuat kode untuk 7 task basic Divisi SIEMO di M
 
 ## 1 - Basic
 
-Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang bisa dimasukkan ke MySQL adalah:
+Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
+
 ```
+CREATE DATABASE `multipolar_basic`;
+
+USE `multipolar_basic`;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+07:00";
-
-CREATE DATABASE `basic1string`;
 
 CREATE TABLE `basic` (
   `id` int(10) NOT NULL,
@@ -38,34 +41,50 @@ ALTER TABLE `basic`
 COMMIT;
 ```
 
-Setelah itu, kode bisa dijalankan pada kelas InputStringServlet. Aplikasi servlet akan muncul pada URL http://localhost:8080/.
+Setelah itu, kode bisa dijalankan pada kelas InputStringServlet. Aplikasi servlet akan muncul pada URL http://localhost:8080/. Demonstrasi dari aplikasi ini dapat dilihat pada animasi di bawah ini.
 
 ![Peek recording itself](https://github.com/cyberboyz/task-basic-siemo-multipolar/blob/master/asset/1-basic.gif)
 
-Pada project ini, cloud yang digunakan adalah Heroku. Untuk unggah aplikasi ke heroku, daftar terlebih dahulu ke heroku lewat https://signup.heroku.com/. Kemudian install Heroku CLI melalui https://devcenter.heroku.com/articles/heroku-cli. Setelah Heroku CLI terinstall, ketikkan perintah berikut ini di command line untuk membuat aplikasi Heroku:
+## 2 - Intermediate
+
+Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
+
 ```
-heroku create
+CREATE DATABASE `multipolar_intermediate`;
+
+USE `multipolar_intermediate`;
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+07:00";
+
+CREATE TABLE `employee` (
+  `id` int(50) NOT NULL,
+  `name` varchar(250) NOT NULL,
+  `entry_date` date NOT NULL,
+  `employee_group` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `employee_group` (
+  `employee_group` varchar(50) NOT NULL,
+  `monthly_salary` int(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `employee`
+  ADD KEY `employee_group` (`employee_group`);
+
+ALTER TABLE `employee_group`
+  ADD PRIMARY KEY (`employee_group`);
+
+ALTER TABLE `employee`
+  ADD CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`employee_group`) REFERENCES `employee_group` (`employee_group`);
+COMMIT;
 ```
 
-Kemudian lakukan login:
-```
-heroku login
-```
+Setelah itu, kode bisa dijalankan pada kelas EmployeeServlet. Aplikasi servlet akan muncul pada URL http://localhost:8080/. Demonstrasi dari aplikasi ini dapat dilihat pada animasi di bawah ini.
 
-Setelah itu buat database postgresql di Heroku:
-```
-heroku addons:create heroku-postgresql
-```
-
-Database yang digunakan akan terdeteksi secara otomatis karena digunakan kode ```os.Getenv($DATABASE_URL)``` pada variabel ```db_url``` untuk mendeteksi URL database default yang digunakan pada Heroku.
-Kemudian masukkan perintah ini untuk deploy repository ke Heroku:
-```
-git add . -A
-git commit -m "Deploy Heroku"
-git push heroku master
-```
-
-Setelah berhasil di-deploy ke Heroku, jalankan perintah ```heroku open``` untuk membuka URL tempat deploy aplikasi atau lakukan tes melalui Postman dengan menggunakan URL yang digunakan. 
+![Peek recording itself](https://github.com/cyberboyz/task-basic-siemo-multipolar/blob/master/asset/2-intermediate.gif)
 
 ## Pengujian dengan Postman
 
