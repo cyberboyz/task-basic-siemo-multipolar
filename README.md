@@ -215,6 +215,8 @@ Aplikasi ini dibuat dengan framework Spring Boot untuk menampilkan data karyawan
 | Ubah Karyawan          | `localhost:8080/v1/employees/<id_employee>`              |   **PUT**    |
 | Hapus Karyawan       | `localhost:8080/v1/employees/<id_employee>`    |   **DELETE**    |
 
+Sebelum menjalankan aplikasi Spring Boot, `karyawan` dibuat terlebih dahulu. Setelah itu, aplikasi Spring Boot dapat membuat tabel sendiri dan menyediakan REST API dengan resource seperti yang diperlihatkan di atas.
+
 ## Tools
 
 - Java
