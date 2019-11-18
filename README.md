@@ -6,6 +6,7 @@ Repository ini digunakan untuk membuat kode untuk 7 task basic Divisi SIEMO di M
 
 ## 1 - Basic
 
+Aplikasi yang dibuat pada task basic berfungsi untuk melakukan filter kata berulang yang tersusun secara berurutan selain kata ulang. Selain itu, jumlah perulangan tiap kata dan indeks pertama munculnya kata yang diulang juga diperlihatkan pada kolom `Kata Berulang`.
 Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
 
 ```
