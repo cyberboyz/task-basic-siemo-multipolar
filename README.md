@@ -175,6 +175,36 @@ Server bisa dijalankan pada kelas FileServer sedangkan client bisa dijalankan pa
 
 Aplikasi ini bisa dijalankan dengan menjalankan server pada kelas MultithreadedSocketServer dan client pada kelas DemoMultithreadedSocketClient. Hasil yang didapatkan adalah client menerima berbagai string random dari 4 buah thread client secara tidak berurutan.
 
+## 5 - Collection
+
+Aplikasi ini digunakan untuk menampilkan data file text ke dalam web dengan collection. Program ini dapat dijalankan dengan Tomcat dan aplikasi dapat diakses melalui URL http://localhost:8080/data_karyawan. Golongan dari tiap karyawan bisa diakses dengan klik link `golongan` yang ada di kolom detail.
+
+## 6 - Convert XML to DB
+
+Aplikasi ini digunakan untuk mengubah XML dari URL ke dalam database. Sebelum menjalankan aplikasi, masukkan perintah SQL berikut untuk konfigurasi, membuat database, dan membuat tabel.
+
+```
+CREATE DATABASE `multipolar_xml_db`;
+
+USE `multipolar_xml_db`;
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+07:00";
+
+CREATE TABLE `record` (
+  `name` varchar(250) NOT NULL,
+  `phone` varchar(250) NOT NULL,
+  `email` varchar(250) NOT NULL,
+  `city` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+Setelah itu, jalankan aplikasi pada kelas RecordMain sehingga data dari XML akan tersimpan di database.
+
+## 7 - 
+
 ## Pengujian dengan Postman
 
 Untuk pengujian melalui Postman dilakukan dengan menggunakan <your_url>/v1/<nama_resource>. Adapun list dari resource yang dapat diakses adalah :
