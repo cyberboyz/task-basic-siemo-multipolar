@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<records>
+    <record>
+        <city>Jogja</city>
+        <email>budi@jogja.com</email>
+        <name>Budi</name>
+        <phone>082525215252</phone>
+    </record>
+    <record>
+        <city>Jakarta</city>
+        <email>eko@jakarta.com</email>
+        <name>Eko</name>
+        <phone>08188258292</phone>
+    </record>
+    <record>
+        <city>Semarang</city>
+        <email>dewi@semarang.com</email>
+        <name>Dewi</name>
+        <phone>08572828190</phone>
+    </record>
+</records>
