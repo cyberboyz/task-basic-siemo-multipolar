@@ -19,7 +19,7 @@ import java.util.List;
  *
  */
 public class InputStringDAO {
-	private String jdbcURL = "jdbc:mysql://localhost:3306/basic1string?useSSL=false";
+	private String jdbcURL = "jdbc:mysql://localhost:3306/multipolar_basic?useSSL=false";
 	private String jdbcUsername = "root";
 	private String jdbcPassword = "";
 

@@ -7,10 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f89e6e01-c47a-406c-bcb5-e2d6e87e3fbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2 - intermediate/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/hello.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/dao/InputStringDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/dao/InputStringDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - intermediate/src/main/java/com/demo/dao/InputStringDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - intermediate/src/main/java/com/demo/model/InputString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - intermediate/src/main/java/com/demo/web/InputStringServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - intermediate/target/basic1string/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../2 - intermediate/target/basic1string/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 - intermediate/target/classes/META-INF/basic1string.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +222,8 @@
       <workItem from="1573532569716" duration="454000" />
       <workItem from="1573541155730" duration="37000" />
       <workItem from="1573562462907" duration="183000" />
-      <workItem from="1574139926512" duration="1045000" />
+      <workItem from="1574139926512" duration="1709000" />
+      <workItem from="1574146681603" duration="185000" />
     </task>
     <servers />
   </component>
@@ -229,7 +235,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
