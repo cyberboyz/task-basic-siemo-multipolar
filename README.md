@@ -1,4 +1,4 @@
-# task-basic-siemo-multipolar
+# Task Basic SIEMO Multipolar
 
 Repository ini digunakan untuk membuat kode untuk 7 task basic Divisi SIEMO di Multipolar dengan bahasa Java.
 
@@ -8,7 +8,7 @@ Repository ini digunakan untuk membuat kode untuk 7 task basic Divisi SIEMO di M
 
 Aplikasi yang dibuat pada task basic berfungsi untuk melakukan filter kata berulang yang tersusun secara berurutan selain kata ulang. Selain itu, jumlah perulangan tiap kata dan indeks pertama munculnya kata yang diulang juga diperlihatkan pada kolom `Kata Berulang`.
 
-Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
+Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun sintaks yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
 
 ```
 CREATE DATABASE `multipolar_basic`;
@@ -54,7 +54,7 @@ Aplikasi yang dibuat pada task intermediate berfungsi untuk mencatat informasi k
 - Input data karyawan
 - Tampilan data karyawan urut sesuai gaji / tanggal masuk
 
-Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
+Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun sintaks yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
 
 ```
 CREATE DATABASE `multipolar_intermediate`;
@@ -97,7 +97,7 @@ Setelah itu, kode bisa dijalankan pada kelas EmployeeServlet. Aplikasi servlet a
 
 Aplikasi yang dibuat pada task advanced adalah aplikasi servlet karyawan yang memanggil aplikasi servlet insentif untuk melakukan perhitungan insentif. 
 
-Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun kode yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
+Sebelum kode pada program ini dijalankan, perlu dilakukan pengaturan MySQL, pembuatan database, dan pembuatan tabel. Adapun sintaks yang perlu dimasukkan ke MySQL terlebih dahulu adalah:
 
 ```
 CREATE DATABASE `multipolar_advanced`;
@@ -136,6 +136,44 @@ COMMIT;
 Kode bisa dijalankan pada kelas EmployeeServlet di aplikasi pertama dan kelas IncentiveServlet di aplikasi kedua. Setelah itu, aplikasi bisa diakses melalui URL http://localhost:8080/. Demonstrasi dari aplikasi ini dapat dilihat pada animasi di bawah ini.
 
 ![Peek recording itself](https://github.com/cyberboyz/task-basic-siemo-multipolar/blob/master/asset/3-advanced.gif)
+
+## 4 - Socket
+
+Aplikasi socket yang dibuat ada 3 macam, yaitu:
+- Client mengirim string ke server kemudian server menulis ke file
+- Client mengirim file text ke server yang berisi 10 baris data (`nama`, `golongan`, `gaji`). Selanjutnya data tersebut disimpan server ke database
+- Aplikasi multithread di mana client mengirim data string random dari 4 thread ke server
+
+### Task 1 
+
+Pada task 1, server bisa dijalankan pada kelas SocketServer sedangkan client bisa dijalankan pada kelas ClientServer. Setelah itu, masukkan string tertentu pada command line saat menjalankan ClientServer. Hasil yang didapatkan adalah string tersebut dikirimkan ke server dan disimpan ke dalam file text `message_from_client.txt`.
+
+### Task 2
+
+Sebelum menjalankan task 2, kita perlu membuat database untuk menyimpan data yang dikirim oleh client. Adapun sintaks SQL untuk pengaturan database, pembuatan database, dan pembuatan tabel adalah:
+
+```
+CREATE DATABASE `multipolar_socket`;
+
+USE `multipolar_socket`;
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+CREATE TABLE `employee` (
+  `name` varchar(250) NOT NULL,
+  `emp_group` varchar(50) NOT NULL,
+  `monthly_salary` int(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+Server bisa dijalankan pada kelas FileServer sedangkan client bisa dijalankan pada kelas FileClient. Setelah itu, file text yang dikirimkan client ke server akan disimpan di database.
+
+### Task 3
+
+Aplikasi ini bisa dijalankan dengan menjalankan server pada kelas MultithreadedSocketServer dan client pada kelas DemoMultithreadedSocketClient. Hasil yang didapatkan adalah client menerima berbagai string random dari 4 buah thread client secara tidak berurutan.
 
 ## Pengujian dengan Postman
 
