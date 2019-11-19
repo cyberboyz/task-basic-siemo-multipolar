@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DataAccessObject {
     private String jdbcUsername = "root";
     private String jdbcPassword = "";
-    private String jdbcDatabase = "multipolar_intermediate";
+    private String jdbcDatabase = "multipolar_advanced";
     private String jdbcURL = "jdbc:mysql://localhost:3306/" + jdbcDatabase +"?useSSL=false";
 
     protected Connection getConnection() {

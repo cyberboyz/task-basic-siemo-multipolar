@@ -30,6 +30,14 @@
                 </td>
             </tr>
             <tr>
+                <th>Persentase Insentif: </th>
+                <td>
+                    <input type="number" name="incentivePercentage" size="45"
+                           value="" step="0.01"
+                    />
+                </td>
+            </tr>
+            <tr>
                 <td colspan="2" align="center">
                     <input type="submit" value="Simpan" />
                 </td>

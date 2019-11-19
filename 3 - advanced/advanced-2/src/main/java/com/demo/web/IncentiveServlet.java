@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet("/get_incentive")
-public class EmployeeServlet extends HttpServlet {
+public class IncentiveServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private EmployeeDAO employeeDAO;
     private Gson gson;

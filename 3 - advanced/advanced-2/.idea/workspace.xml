@@ -6,7 +6,31 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f89e6e01-c47a-406c-bcb5-e2d6e87e3fbf" name="Default Changelist" comment="" />
+    <list default="true" id="f89e6e01-c47a-406c-bcb5-e2d6e87e3fbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/3 - advanced.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2 - intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2 - intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/dao/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/dao/DataAccessObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/dao/EmployeeGroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/dao/EmployeeGroupDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/model/EmployeeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/model/EmployeeGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/web/EmployeeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/web/EmployeeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/webapp/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/webapp/input-golongan-gaji.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/dao/EmployeeGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/dao/EmployeeGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/model/EmployeeGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/model/EmployeeGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/web/EmployeeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/web/EmployeeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/input-golongan-gaji.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/dao/EmployeeGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/dao/EmployeeGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/model/EmployeeGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/model/EmployeeGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/web/EmployeeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/web/EmployeeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/dao/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/dao/DataAccessObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +58,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -41,8 +68,17 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1TGqNgIonbTUS9kaw7ZSd950ge6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -71,6 +107,53 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 7.0.96" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/get_incentive?id=1" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -231,11 +314,23 @@
       <workItem from="1573562647334" duration="628000" />
       <workItem from="1573701029332" duration="4996000" />
       <workItem from="1573706812744" duration="2712000" />
+      <workItem from="1574150478434" duration="1955000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

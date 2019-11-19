@@ -111,8 +111,9 @@ public class EmployeeServlet extends HttpServlet {
     private void insertEmployeeGroup(HttpServletRequest request, HttpServletResponse response) throws SQLException, IOException {
         String employeeGroup = request.getParameter("employeeGroup");
         String monthlySalary = request.getParameter("monthlySalary");
+        String incentivePercentage = request.getParameter("incentivePercentage");
 
-        EmployeeGroup newEmployeeGroup = new EmployeeGroup(employeeGroup, monthlySalary);
+        EmployeeGroup newEmployeeGroup = new EmployeeGroup(employeeGroup, monthlySalary, incentivePercentage);
 
         employeeGroupDAO.insertEmployeeGroup(newEmployeeGroup);
         response.sendRedirect("list");

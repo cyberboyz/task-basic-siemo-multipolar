@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="advanced">
+    <output-path>$PROJECT_DIR$/out/artifacts/advanced</output-path>
+    <root id="root" />
+  </artifact>
+</component>
