@@ -9,7 +9,7 @@ public class SimpleFileClient {
 
     private Socket s;
 
-    public SimpleFileClient(String host, int port, String file) {
+    private SimpleFileClient(String host, int port, String file) {
         try {
             s = new Socket(host, port);
             sendFile(file);
@@ -18,7 +18,7 @@ public class SimpleFileClient {
         }
     }
 
-    public void sendFile(String file) throws IOException {
+    private void sendFile(String file) throws IOException {
         DataOutputStream dos = new DataOutputStream(s.getOutputStream());
         FileInputStream fis = new FileInputStream(file);
         byte[] buffer = new byte[4096];
@@ -31,6 +31,6 @@ public class SimpleFileClient {
     }
 
     public static void main(String[] args) {
-        SimpleFileClient fc = new SimpleFileClient("localhost", 1988, "files.txt");
+        SimpleFileClient fc = new SimpleFileClient("localhost", 1988, "file_to_be_sent_by_client.txt");
     }
 }

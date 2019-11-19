@@ -12,18 +12,18 @@ import java.sql.*;
 public class SimpleFileServer extends Thread {
 
     private ServerSocket ss;
-    private String fileName = "files_di_server.txt";
+    private String fileName = "file_from_client.txt";
 
-    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost/employee_db";
-    static final String USER = "root";
-    static final String PASS = "";
+    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String DB_URL = "jdbc:mysql://localhost/employee_db";
+    private static final String USER = "root";
+    private static final String PASS = "";
 
-    static Connection conn;
-    static Statement stmt;
-    static ResultSet rs;
+    private static Connection conn;
+    private static Statement stmt;
+    private static ResultSet rs;
 
-    public SimpleFileServer(int port) {
+    private SimpleFileServer(int port) {
         try {
             ss = new ServerSocket(port);
         } catch (IOException e) {
@@ -80,8 +80,7 @@ public class SimpleFileServer extends Thread {
     }
 
     private String readFromFile(String fileName) throws IOException {
-        String fileContent = new String(Files.readAllBytes(Paths.get(fileName)));
-        return fileContent;
+        return new String(Files.readAllBytes(Paths.get(fileName)));
     }
 
     private void saveFile(Socket clientSock, String fileName) throws IOException {
@@ -90,7 +89,7 @@ public class SimpleFileServer extends Thread {
         byte[] buffer = new byte[4096];
 
         int filesize = 151230; // Send file size in separate msg
-        int read = 0;
+        int read;
         int totalRead = 0;
         int remaining = filesize;
         while((read = dis.read(buffer, 0, Math.min(buffer.length, remaining))) > 0) {

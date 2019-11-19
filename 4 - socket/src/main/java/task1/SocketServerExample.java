@@ -1,4 +1,4 @@
-package com.journaldev.socket;
+package task1;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -20,10 +20,10 @@ public class SocketServerExample {
     //socket server port on which it will listen
     private static int port = 9876;
 
-    public static void main(String args[]) throws IOException, ClassNotFoundException{
+    public static void main(String[] args) throws IOException, ClassNotFoundException{
         //create the socket server object
         server = new ServerSocket(port);
-        ObjectInputStream ois = null;
+        ObjectInputStream ois;
 
         //keep listens indefinitely until receives 'exit' call or program terminates
         System.out.println("Waiting for the client request");
@@ -37,7 +37,7 @@ public class SocketServerExample {
         //convert ObjectInputStream object to String
         String message = (String) ois.readObject();
         System.out.println("Message Received: " + message);
-        writeToFile(message, "file.txt");
+        writeToFile(message, "message_from_client.txt");
 
         //close resources
         ois.close();
@@ -47,7 +47,7 @@ public class SocketServerExample {
         server.close();
     }
 
-    public static void writeToFile(String data, String fileName) {
+    private static void writeToFile(String data, String fileName) {
         try {
             Files.write(Paths.get(fileName), data.getBytes());
         } catch (IOException e) {

@@ -7,29 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f89e6e01-c47a-406c-bcb5-e2d6e87e3fbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/3 - advanced.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2 - intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2 - intermediate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/dao/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/dao/DataAccessObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/dao/EmployeeGroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/dao/EmployeeGroupDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/model/EmployeeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/model/EmployeeGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/web/EmployeeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/web/EmployeeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/input-golongan-gaji.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/dao/EmployeeGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/dao/EmployeeGroupDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/model/EmployeeGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/model/EmployeeGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/web/EmployeeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/web/EmployeeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/basic1string/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic1string/input-golongan-gaji.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/dao/EmployeeGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/dao/EmployeeGroupDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/model/EmployeeGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/model/EmployeeGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/web/EmployeeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/web/EmployeeServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../advanced-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-2/src/main/java/com/demo/dao/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-2/src/main/java/com/demo/dao/DataAccessObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-2/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-2/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-2/target/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-2/target/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../advanced-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../4 - socket" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -266,7 +245,7 @@
       <workItem from="1573650346223" duration="5389000" />
       <workItem from="1573706798488" duration="6816000" />
       <workItem from="1573731496369" duration="2318000" />
-      <workItem from="1574150392009" duration="2276000" />
+      <workItem from="1574150392009" duration="3200000" />
     </task>
     <servers />
   </component>

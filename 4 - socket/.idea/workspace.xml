@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c224db-998c-4109-b9e6-683e13fdf2cb" name="Default Changelist" comment="" />
+    <list default="true" id="92c224db-998c-4109-b9e6-683e13fdf2cb" name="Default Changelist" comment="change">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baru.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file_to_be_sent_by_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_2_yes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_baru_lagi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_di_server.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task1/SocketClientExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1/SocketClientExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task1/SocketServerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1/SocketServerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task2/SimpleFileClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task2/SimpleFileClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task2/SimpleFileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task2/SimpleFileServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/socket.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/journaldev/socket/SocketServerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/journaldev/socket/SocketServerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/task2/SimpleFileClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/task2/SimpleFileClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/task2/SimpleFileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/task2/SimpleFileServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/task3/DemoMultithreadedSocketClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/task3/DemoMultithreadedSocketClient.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +36,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TGzaRwTlTJ6I1Rg52jn78zDRE3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/task3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -38,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DemoMultithreadedSocketClient">
     <configuration name="DemoMultithreadedSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task3.DemoMultithreadedSocketClient" />
       <module name="socket" />
@@ -78,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.journaldev.socket.SocketClientExample" />
+    <configuration name="SimpleFileServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task2.SimpleFileServer" />
       <module name="socket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.journaldev.socket.*" />
+          <option name="PATTERN" value="task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketServerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.journaldev.socket.SocketServerExample" />
+    <configuration name="SocketClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.journaldev.socket.SocketClientExample" />
       <module name="socket" />
       <extension name="coverage">
         <pattern>
@@ -108,9 +137,9 @@
       <list>
         <item itemvalue="Application.DemoMultithreadedSocketClient" />
         <item itemvalue="Application.MultithreadedSocketServer" />
-        <item itemvalue="Application.SocketClientExample" />
-        <item itemvalue="Application.SocketServerExample" />
         <item itemvalue="Application.SimpleFileClient" />
+        <item itemvalue="Application.SimpleFileServer" />
+        <item itemvalue="Application.SocketClientExample" />
       </list>
     </recent_temporary>
   </component>
@@ -130,11 +159,28 @@
       <workItem from="1573625208081" duration="3822000" />
       <workItem from="1573629059992" duration="1000" />
       <workItem from="1573629084745" duration="5549000" />
+      <workItem from="1574154784852" duration="830000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -146,12 +192,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/task1/SocketClientExample.java</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/task2/SimpleFileServer.java</url>
-          <line>98</line>
+          <line>97</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

@@ -1,5 +1,4 @@
-
-package com.journaldev.socket;
+package task1;
 
 import java.io.*;
 import java.net.InetAddress;
@@ -13,11 +12,11 @@ import java.net.UnknownHostException;
  */
 public class SocketClientExample {
 
-    public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException, InterruptedException{
+    public static void main(String[] args) throws Exception{
         //get the localhost IP address, if server is running on some other IP, you need to use that
         InetAddress host = InetAddress.getLocalHost();
-        Socket socket = null;
-        ObjectOutputStream oos = null;
+        Socket socket;
+        ObjectOutputStream oos;
 
         //establish socket connection to server
         socket = new Socket(host.getHostName(), 9876);

@@ -7,29 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f89e6e01-c47a-406c-bcb5-e2d6e87e3fbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/3 - advanced.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced-1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2 - intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2 - intermediate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../advanced-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/dao/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/dao/DataAccessObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/dao/EmployeeGroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/dao/EmployeeGroupDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/model/EmployeeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/model/EmployeeGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/web/EmployeeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/java/com/demo/web/EmployeeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/src/main/webapp/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/src/main/webapp/input-golongan-gaji.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/dao/EmployeeGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/dao/EmployeeGroupDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/model/EmployeeGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/model/EmployeeGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/web/EmployeeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/WEB-INF/classes/com/demo/web/EmployeeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/target/basic1string/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/basic1string/input-golongan-gaji.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/dao/EmployeeGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/dao/EmployeeGroupDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/model/EmployeeGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/model/EmployeeGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/web/EmployeeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/classes/com/demo/web/EmployeeServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/dao/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/dao/DataAccessObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/basic1string/WEB-INF/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/dao/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/dao/DataAccessObject.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -314,7 +293,7 @@
       <workItem from="1573562647334" duration="628000" />
       <workItem from="1573701029332" duration="4996000" />
       <workItem from="1573706812744" duration="2712000" />
-      <workItem from="1574150478434" duration="1955000" />
+      <workItem from="1574150478434" duration="2758000" />
     </task>
     <servers />
   </component>
@@ -336,7 +315,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/demo/web/EmployeeServlet.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/demo/web/IncentiveServlet.java</url>
           <line>40</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
