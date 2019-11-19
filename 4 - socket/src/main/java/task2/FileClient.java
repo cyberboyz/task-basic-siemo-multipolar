@@ -5,11 +5,11 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-public class SimpleFileClient {
+public class FileClient {
 
     private Socket s;
 
-    private SimpleFileClient(String host, int port, String file) {
+    private FileClient(String host, int port, String file) {
         try {
             s = new Socket(host, port);
             sendFile(file);
@@ -31,6 +31,6 @@ public class SimpleFileClient {
     }
 
     public static void main(String[] args) {
-        SimpleFileClient fc = new SimpleFileClient("localhost", 1988, "file_to_be_sent_by_client.txt");
+        FileClient fc = new FileClient("localhost", 1988, "file_to_be_sent_by_client.txt");
     }
 }

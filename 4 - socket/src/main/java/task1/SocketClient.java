@@ -3,14 +3,13 @@ package task1;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 /**
  * This class implements java socket client
  * @author pankaj
  *
  */
-public class SocketClientExample {
+public class SocketClient {
 
     public static void main(String[] args) throws Exception{
         //get the localhost IP address, if server is running on some other IP, you need to use that

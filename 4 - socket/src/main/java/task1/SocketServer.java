@@ -2,7 +2,6 @@ package task1;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.lang.ClassNotFoundException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -14,7 +13,7 @@ import java.nio.file.Paths;
  * @author pankaj
  *
  */
-public class SocketServerExample {
+public class SocketServer {
     //static ServerSocket variable
     private static ServerSocket server;
     //socket server port on which it will listen

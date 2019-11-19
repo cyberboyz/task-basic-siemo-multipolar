@@ -9,13 +9,13 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.sql.*;
 
-public class SimpleFileServer extends Thread {
+public class FileServer extends Thread {
 
     private ServerSocket ss;
     private String fileName = "file_from_client.txt";
 
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DB_URL = "jdbc:mysql://localhost/employee_db";
+    private static final String DB_URL = "jdbc:mysql://localhost/multipolar_socket";
     private static final String USER = "root";
     private static final String PASS = "";
 
@@ -23,7 +23,7 @@ public class SimpleFileServer extends Thread {
     private static Statement stmt;
     private static ResultSet rs;
 
-    private SimpleFileServer(int port) {
+    private FileServer(int port) {
         try {
             ss = new ServerSocket(port);
         } catch (IOException e) {
@@ -103,7 +103,7 @@ public class SimpleFileServer extends Thread {
     }
 
     public static void main(String[] args) {
-        SimpleFileServer fs = new SimpleFileServer(1988);
+        FileServer fs = new FileServer(1988);
         fs.start();
     }
 }
