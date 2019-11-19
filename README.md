@@ -217,9 +217,18 @@ Aplikasi ini dibuat dengan framework Spring Boot untuk menampilkan data karyawan
 
 Sebelum menjalankan aplikasi Spring Boot, `karyawan` dibuat terlebih dahulu. Setelah itu, aplikasi Spring Boot dapat membuat tabel sendiri dan menyediakan REST API dengan resource seperti yang diperlihatkan di atas. Pada folder `7 - case_spring_boot`, terdapat dua folder yaitu `spring_boot_1` yang dibuat dengan Spring Boot 1 dan `spring_boot_2` yang dibuat dengan Spring Boot 2.
 
-## Tools
+### Tools
 
 - Java
 - MySQL
-- Spring Framework
 - IDE (IntelliJ IDEA)
+- Maven
+
+### Libraries
+
+- Spring Framework
+- JPA
+- Servlet
+- JAXB
+- Gson
+- Guava
