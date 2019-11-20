@@ -175,39 +175,51 @@ Server bisa dijalankan pada kelas FileServer sedangkan client bisa dijalankan pa
 
 Aplikasi ini bisa dijalankan dengan menjalankan server pada kelas MultithreadedSocketServer dan client pada kelas DemoMultithreadedSocketClient. Hasil yang didapatkan adalah client menerima berbagai string random dari 4 buah thread client secara tidak berurutan.
 
-## Pengujian dengan Postman
+## 5 - Collection
 
-Untuk pengujian melalui Postman dilakukan dengan menggunakan <your_url>/v1/<nama_resource>. Adapun list dari resource yang dapat diakses adalah :
+Aplikasi ini digunakan untuk menampilkan data file text ke dalam web dengan collection. Program ini dapat dijalankan dengan Tomcat dan aplikasi dapat diakses melalui URL http://localhost:8080/data_karyawan. Golongan dari tiap karyawan bisa diakses dengan klik link `golongan` yang ada di kolom detail.
+
+## 6 - Convert XML to DB
+
+Aplikasi ini digunakan untuk mengubah XML dari URL ke dalam database. Sebelum menjalankan aplikasi, masukkan perintah SQL berikut untuk konfigurasi, membuat database, dan membuat tabel.
+
+```
+CREATE DATABASE `multipolar_xml_db`;
+
+USE `multipolar_xml_db`;
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+07:00";
+
+CREATE TABLE `record` (
+  `name` varchar(250) NOT NULL,
+  `phone` varchar(250) NOT NULL,
+  `email` varchar(250) NOT NULL,
+  `city` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+Setelah itu, jalankan aplikasi pada kelas RecordMain sehingga data dari XML akan tersimpan di database.
+
+## 7 - Spring Boot 
+
+Aplikasi ini dibuat dengan framework Spring Boot untuk menampilkan data karyawan beserta gajinya dalam format JSON. Adapun list dari resource yang dapat diakses adalah :
 
 | Name                  | URL                                | HTTP Method  |
 | ----------------------|:----------------------------------:|:------------:|
-| Register User         | `<your_url>/v1/register`           |   **POST**   |
-| Login User            | `<your_url>/v1/login`              |   **POST**   |
-| Logout User           | `<your_url>/v1/logout`             |   **GET**    |
-| Get All Post          | `<your_url>/v1/posts`              |   **GET**    |
-| Get Post Detail       | `<your_url>/v1/posts/<id_post>`    |   **GET**    |
-| Update Post           | `<your_url>/v1/posts/<id_post>`    |   **PUT**    |
-| Delete Post           | `<your_url>/v1/posts/<id_post>`    |   **DELETE** |
-| Show All Users        | `<your_url>/v1/profile`            |   **GET**    |
-| Show Profile Detail   | `<your_url>/v1/profile/<id_user>`  |   **GET**    |
-| Update Profile Detail | `<your_url>/v1/profile/<id_user>`  |   **PUT**    |
-| Delete Profile        | `<your_url>/v1/profile/<id_user>`  |   **DELETE** |
-| Add Category          | `<your_url>/v1/categories`         |   **POST**   |
-| Show All Categories   | `<your_url>/v1/categories`         |   **GET**    |
-| Show All Posts Based on Categories | `<your_url>/v1/categories`         |   **GET**    |
-| Show All Posts Based on Several Categories| `<your_url>/v1/3categoriesposts` |   **POST** |
-| Add Bookmark          | `<your_url>/v1/bookmarks`          |   **POST**   |
-| Delete Bookmark       | `<your_url>/v1/bookmarks/<id_post>`|   **DELETE** |
-| Show Own Bookmarks    | `<your_url>/v1/bookmarks`          |   **GET**    |
-| Show Own Profile      | `<your_url>/v1/ownprofile`         |   **GET**    |
-| Show Own Posts        | `<your_url>/v1/ownposts`           |   **GET**    |
-| Add Categories by User| `<your_url>/v1/owncategory`        |   **POST**   |
-| Update Categories by User| `<your_url>/v1/owncategory`     |   **PUT**    |
-| Delete Categories by User| `<your_url>/v1/owncategory`     |   **DELETE** |
-| Get All Posts Based on User| `<your_url>/v1/profile/<id_user>/posts` |   **GET** |
+| Baca Semua Karyawan         | `localhost:8080/v1/employees`           |   **GET**   |
+| Baca Salah Satu Karyawan            | `localhost:8080/v1/employees/<id_employee>`              |   **GET**   |
+| Tambah Karyawan           | `localhost:8080/v1/employees`             |   **POST**    |
+| Ubah Karyawan          | `localhost:8080/v1/employees/<id_employee>`              |   **PUT**    |
+| Hapus Karyawan       | `localhost:8080/v1/employees/<id_employee>`    |   **DELETE**    |
+
+Sebelum menjalankan aplikasi Spring Boot, `karyawan` dibuat terlebih dahulu. Setelah itu, aplikasi Spring Boot dapat membuat tabel sendiri dan menyediakan REST API dengan resource seperti yang diperlihatkan di atas. Pada folder `7 - case_spring_boot`, terdapat dua folder yaitu `spring_boot_1` yang dibuat dengan Spring Boot 1 dan `spring_boot_2` yang dibuat dengan Spring Boot 2.
 
 ## Tools
 
 - Java
 - MySQL
+- Spring Framework
 - IDE (IntelliJ IDEA)
