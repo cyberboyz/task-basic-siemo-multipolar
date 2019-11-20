@@ -6,7 +6,47 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c305c9a8-8bc9-46b7-b014-3d27ffe85f6b" name="Default Changelist" comment="" />
+    <list default="true" id="c305c9a8-8bc9-46b7-b014-3d27ffe85f6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/collection/WEB-INF/classes/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/collection2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/java/model/EmployeeGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/java/web/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/java/web/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/resources/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/classes/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/META-INF/collection2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/model/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/model/EmployeeGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/web/Helper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/web/Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/file_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/file_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_karyawan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db_karyawan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/web/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/web/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/collection.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/web/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/web/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/collection/WEB-INF/classes/com/demo/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/collection/WEB-INF/classes/com/demo/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/collection/WEB-INF/classes/com/demo/web/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/collection/WEB-INF/classes/com/demo/web/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/collection/form.jsp" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +72,30 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1TYcwDQduzXAJ9Vnt3RLrktaTvX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4 - socket" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\belajar-spring\task\5 - collection\src\main\resources" />
+      <recent name="D:\belajar-spring\task\5 - collection\src\main\java\com\demo\web" />
+      <recent name="D:\belajar-spring\task\5 - collection" />
       <recent name="D:\belajar-spring\task\collection\src\main\resources" />
       <recent name="D:\belajar-spring\task\collection\src\main\resources\com.demo" />
     </key>
@@ -56,9 +112,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.96">
+    <configuration name="Helper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.Helper" />
+      <module name="collection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 7.0.96" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/new" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/data_karyawan" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="collection:war exploded">
@@ -132,6 +201,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Helper" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.96" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Helper" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -147,18 +225,30 @@
       <workItem from="1573718086652" duration="473000" />
       <workItem from="1573718618552" duration="13503000" />
       <workItem from="1573786508229" duration="236000" />
+      <workItem from="1574157039138" duration="6371000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/demo/Helper.java</url>
-          <line>35</line>
+          <line>43</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

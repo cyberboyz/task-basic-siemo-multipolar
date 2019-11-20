@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.List;
 
 @WebServlet("/")
@@ -18,24 +19,19 @@ public class Servlet extends HttpServlet {
     private List<Employee> employees;
     public void init() {
         try {
-            employees = Helper.readDataFromText("D:\\belajar-spring\\task\\collection\\db_karyawan.txt");
+            employees = Helper.readDataFromText("db_karyawan.txt");
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
-//
-//    protected void doPost(HttpServletRequest request, HttpServletResponse response) {
-//        doGet(request, response);
-//    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {
         String action = request.getServletPath();
 
         try {
             switch (action) {
-                case "/new":
-                    showForm(request, response);
-                    break;
                 case "/golongan":
                     showEmployeeGroup(request, response);
                     break;
@@ -64,11 +60,6 @@ public class Servlet extends HttpServlet {
     private void showEmployee(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setAttribute("employees", this.employees);
         RequestDispatcher dispatcher = request.getRequestDispatcher("tampilan-1.jsp");
-        dispatcher.forward(request, response);
-    }
-
-    private void showForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("form.jsp");
         dispatcher.forward(request, response);
     }
 }

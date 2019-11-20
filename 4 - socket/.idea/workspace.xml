@@ -2,16 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c224db-998c-4109-b9e6-683e13fdf2cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../5 - collection/target/classes/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5 - collection/target/collection/WEB-INF/classes/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/collection2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/java/model/EmployeeGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/java/web/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/java/web/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/src/main/resources/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/classes/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/META-INF/collection2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/db_karyawan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/model/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/model/EmployeeGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/web/Helper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/classes/web/Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection2/target/collection/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/message_from_client.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task1/SocketClientExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1/SocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task1/SocketServerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1/SocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task2/SimpleFileClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task2/FileClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task2/SimpleFileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task2/FileServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/journaldev/socket/SocketClientExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/journaldev/socket/SocketServerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task2/SimpleFileClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/task2/SimpleFileServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/db_karyawan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/src/main/resources/db_karyawan.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/src/main/java/com/demo/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/src/main/java/com/demo/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/src/main/java/com/demo/web/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/src/main/java/com/demo/web/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/src/main/webapp/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/target/classes/META-INF/collection.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/target/classes/com/demo/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/target/classes/com/demo/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/target/classes/com/demo/web/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/target/classes/com/demo/web/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/target/collection/WEB-INF/classes/com/demo/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/target/collection/WEB-INF/classes/com/demo/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/target/collection/WEB-INF/classes/com/demo/web/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/target/collection/WEB-INF/classes/com/demo/web/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/target/collection/form.jsp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +67,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5 - collection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../6 - convert_xml_to_db" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\belajar-spring\task\4 - socket" />
+      <recent name="D:\belajar-spring\task\4 - socket\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\belajar-spring\task\socket\src\main\java\task3" />
     </key>
@@ -128,7 +161,6 @@
         <item itemvalue="Application.FileClient" />
         <item itemvalue="Application.FileServer" />
         <item itemvalue="Application.SocketClient" />
-        <item itemvalue="Application.SocketServerExample" />
         <item itemvalue="Application.DemoMultithreadedSocketClient" />
       </list>
     </recent_temporary>
@@ -150,6 +182,7 @@
       <workItem from="1573629059992" duration="1000" />
       <workItem from="1573629084745" duration="5549000" />
       <workItem from="1574154784852" duration="2250000" />
+      <workItem from="1574157391485" duration="3706000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574155636268</created>
@@ -169,7 +202,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

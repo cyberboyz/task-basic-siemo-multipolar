@@ -2,23 +2,31 @@ package com.demo;
 
 import com.demo.model.Employee;
 import com.demo.model.EmployeeGroup;
+import com.google.common.io.Resources;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
+import java.net.URL;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Helper {
-    public static List<Employee> readDataFromText(String fileName) throws FileNotFoundException {
-        File file = new File(fileName);
-        Scanner sc = new Scanner(file);
+    public static List<Employee> readDataFromText(String fileName) throws IOException {
+        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        InputStream inputStream = classloader.getResourceAsStream(fileName);
 
-        sc.useDelimiter("\\Z");
-        String fileTextContent = sc.next();
+        InputStreamReader isReader = new InputStreamReader(inputStream);
+        BufferedReader reader = new BufferedReader(isReader);
+        StringBuffer sb = new StringBuffer();
+        String str;
+        while((str = reader.readLine())!= null){
+            sb.append(str + "\n");
+        }
+        String fileTextContent = sb.toString();
+
         List<Employee> employees = convertStringToEmployeeObject(fileTextContent);
         return employees;
     }
@@ -29,7 +37,7 @@ public class Helper {
         String regexPattern = "(.+),\\s*(.+),\\s*(.+),\\s*(\\{(.)+\\}.*)";
         Pattern r = Pattern.compile(regexPattern);
 
-        String[] employeeStringLines = employeeString.split("\\r\\n");
+        String[] employeeStringLines = employeeString.split("\\n");
         for (String employeeStringLine: employeeStringLines) {
             Matcher m = r.matcher(employeeStringLine);
             if (m.find()) {

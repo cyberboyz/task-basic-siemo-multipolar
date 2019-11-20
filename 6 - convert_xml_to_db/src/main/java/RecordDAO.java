@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class RecordDAO {
     private static String jdbcUsername = "root";
     private static String jdbcPassword = "";
-    private static String jdbcDatabase = "xml_db";
+    private static String jdbcDatabase = "multipolar_xml_db";
     private static String jdbcURL = "jdbc:mysql://localhost:3306/" + jdbcDatabase +"?useSSL=false";
 
     private static final String INSERT_RECORD_SQL = "INSERT INTO record" + " (name, phone, email, city) VALUES "
@@ -47,8 +47,6 @@ public class RecordDAO {
     }
 
     public static void insertRecord(Record record) throws SQLException {
-        System.out.println(INSERT_RECORD_SQL);
-
         try (Connection connection = getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(INSERT_RECORD_SQL)) {
             preparedStatement.setString(1, record.getName());

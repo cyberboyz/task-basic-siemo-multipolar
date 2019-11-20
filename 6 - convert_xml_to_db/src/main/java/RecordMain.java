@@ -16,46 +16,7 @@ public class RecordMain {
     private static final String RECORDSTORE_XML = "./recordstore-jaxb.xml";
 
     public static void main(String[] args) throws JAXBException, IOException, SQLException {
-        List<Record> recordList = new ArrayList<>();
-
-        Record record1 = new Record();
-        record1.setName("Budi");
-        record1.setCity("Jogja");
-        record1.setEmail("budi@jogja.com");
-        record1.setPhone("082525215252");
-        recordList.add(record1);
-
-        Record record2 = new Record();
-        record2.setName("Eko");
-        record2.setCity("Jakarta");
-        record2.setEmail("eko@jakarta.com");
-        record2.setPhone("08188258292");
-        recordList.add(record2);
-
-        Record record3 = new Record();
-        record3.setName("Dewi");
-        record3.setCity("Semarang");
-        record3.setEmail("dewi@semarang.com");
-        record3.setPhone("08572828190");
-        recordList.add(record3);
-
-        RecordStore recordStore = new RecordStore();
-        recordStore.setRecordList(recordList);
-
-        // create JAXB context and instantiate marshaller
         JAXBContext context = JAXBContext.newInstance(RecordStore.class);
-        Marshaller m = context.createMarshaller();
-        m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-
-        // Write to System.out
-        m.marshal(recordStore, System.out);
-
-        // Write to File
-        m.marshal(recordStore, new File(RECORDSTORE_XML));
-
-        // get variables from our xml file, created before
-        System.out.println();
-        System.out.println("Output from our XML File: ");
         Unmarshaller um = context.createUnmarshaller();
 
         URL xmlUrl = readXmlFromGoogleDriveUrl("https://drive.google.com/file/d/16zWYQXfSwbfjAt0Xue8MAw8a5L7VTIsG/edit");
