@@ -7,8 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f89e6e01-c47a-406c-bcb5-e2d6e87e3fbf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../1 - basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1 - basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2 - intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2 - intermediate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../advanced-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5 - collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5 - collection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6 - convert_xml_to_db/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../6 - convert_xml_to_db/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6 - convert_xml_to_db/src/main/java/RecordMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6 - convert_xml_to_db/src/main/java/RecordMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7 - case_spring_boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../7 - case_spring_boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7 - case_spring_boot/spring_boot_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../7 - case_spring_boot/spring_boot_2/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../4 - socket" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -294,6 +303,7 @@
       <workItem from="1573701029332" duration="4996000" />
       <workItem from="1573706812744" duration="2712000" />
       <workItem from="1574150478434" duration="2758000" />
+      <workItem from="1574240755128" duration="122000" />
     </task>
     <servers />
   </component>
@@ -305,7 +315,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

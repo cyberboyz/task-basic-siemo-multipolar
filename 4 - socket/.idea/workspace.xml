@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="92c224db-998c-4109-b9e6-683e13fdf2cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../1 - basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1 - basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 - basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1 - basic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/message_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/file_to_be_sent_by_client.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - convert_xml_to_db/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 - convert_xml_to_db/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - convert_xml_to_db/src/main/java/RecordMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6 - convert_xml_to_db/src/main/java/RecordMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7 - case_spring_boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7 - case_spring_boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7 - case_spring_boot/spring_boot_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7 - case_spring_boot/spring_boot_2/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileClient">
+  <component name="RunManager" selected="Application.DemoMultithreadedSocketClient">
     <configuration name="DemoMultithreadedSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task3.DemoMultithreadedSocketClient" />
       <module name="socket" />
@@ -94,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultithreadedSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.MultithreadedSocketServer" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task1.SocketClient" />
       <module name="socket" />
@@ -107,25 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task1.SocketServer" />
-      <module name="socket" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoMultithreadedSocketClient" />
+        <item itemvalue="Application.MultithreadedSocketServer" />
         <item itemvalue="Application.FileClient" />
         <item itemvalue="Application.FileServer" />
         <item itemvalue="Application.SocketClient" />
-        <item itemvalue="Application.DemoMultithreadedSocketClient" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +161,7 @@
       <workItem from="1574154784852" duration="2250000" />
       <workItem from="1574157391485" duration="3706000" />
       <workItem from="1574219616864" duration="15000" />
+      <workItem from="1574240879824" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574155636268</created>

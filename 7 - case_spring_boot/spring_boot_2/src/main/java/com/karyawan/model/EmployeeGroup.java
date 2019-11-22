@@ -3,6 +3,7 @@ package com.karyawan.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name = "golongan")
@@ -12,13 +13,23 @@ public class EmployeeGroup {
     private String name;
     private double monthlySalary;
 
+    @OneToMany(mappedBy = "employeeGroup")
+    private Set<Employee> employees;
+
     public EmployeeGroup() {
     }
 
-    public EmployeeGroup(long id, String name, double monthlySalary) {
+//    public EmployeeGroup(long id, String name, double monthlySalary) {
+//        this.id = id;
+//        this.name = name;
+//        this.monthlySalary = monthlySalary;
+//    }
+
+    public EmployeeGroup(long id, String name, double monthlySalary, Set<Employee> employees) {
         this.id = id;
         this.name = name;
         this.monthlySalary = monthlySalary;
+        this.employees = employees;
     }
 
     @Id

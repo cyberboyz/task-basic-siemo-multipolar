@@ -8,10 +8,20 @@
   <component name="ChangeListManager">
     <list default="true" id="c305c9a8-8bc9-46b7-b014-3d27ffe85f6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../1 - basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1 - basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 - basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1 - basic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../4 - socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/file_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/file_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/message_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/message_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/target/classes/file_to_be_sent_by_client.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - convert_xml_to_db/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 - convert_xml_to_db/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - convert_xml_to_db/src/main/java/RecordMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6 - convert_xml_to_db/src/main/java/RecordMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7 - case_spring_boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7 - case_spring_boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7 - case_spring_boot/spring_boot_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7 - case_spring_boot/spring_boot_2/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../basicjava/retrofit" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -193,6 +203,9 @@
       <workItem from="1573786508229" duration="236000" />
       <workItem from="1574157039138" duration="6371000" />
       <workItem from="1574219633813" duration="27000" />
+      <workItem from="1574223127479" duration="793000" />
+      <workItem from="1574241270641" duration="412000" />
+      <workItem from="1574162323130" duration="68000" />
     </task>
     <servers />
   </component>

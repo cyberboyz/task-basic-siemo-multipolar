@@ -3,11 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="45710b1b-75e1-4dce-9515-83f5316687ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../1 - basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1 - basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 - basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1 - basic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../4 - socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/file_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/file_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/message_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/message_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/target/classes/file_to_be_sent_by_client.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecordMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecordMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7 - case_spring_boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7 - case_spring_boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7 - case_spring_boot/spring_boot_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7 - case_spring_boot/spring_boot_2/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +44,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -113,6 +123,7 @@
       <workItem from="1573799235647" duration="12888000" />
       <workItem from="1574164809318" duration="631000" />
       <workItem from="1574219661770" duration="54000" />
+      <workItem from="1574237679889" duration="2611000" />
     </task>
     <servers />
   </component>
@@ -139,6 +150,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/RecordDAO.java</url>
           <line>51</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RecordMain.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

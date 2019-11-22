@@ -3,11 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="2caa02df-c3ad-4c2f-bd85-82e3c780426c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../1 - basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1 - basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 - basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1 - basic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2 - intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-1/target/production/3 - advanced/main/webapp/input-golongan-gaji.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - advanced/advanced-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - advanced/advanced-2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../4 - socket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/file_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/file_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/message_from_client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../4 - socket/message_from_client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4 - socket/target/classes/file_to_be_sent_by_client.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../6 - convert_xml_to_db/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 - convert_xml_to_db/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - convert_xml_to_db/src/main/java/RecordMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6 - convert_xml_to_db/src/main/java/RecordMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_2/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +136,8 @@
       <workItem from="1574133209526" duration="2450000" />
       <workItem from="1574165442631" duration="110000" />
       <workItem from="1574219716721" duration="14000" />
+      <workItem from="1574240199025" duration="27000" />
+      <workItem from="1574241501708" duration="180000" />
     </task>
     <servers />
   </component>

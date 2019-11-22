@@ -7,7 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f89e6e01-c47a-406c-bcb5-e2d6e87e3fbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5 - collection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - convert_xml_to_db/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 - convert_xml_to_db/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 - convert_xml_to_db/src/main/java/RecordMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6 - convert_xml_to_db/src/main/java/RecordMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7 - case_spring_boot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7 - case_spring_boot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7 - case_spring_boot/spring_boot_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7 - case_spring_boot/spring_boot_2/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,6 +223,7 @@
       <workItem from="1574146681603" duration="185000" />
       <workItem from="1574146950526" duration="50000" />
       <workItem from="1574219495338" duration="55000" />
+      <workItem from="1574239063988" duration="968000" />
     </task>
     <servers />
   </component>

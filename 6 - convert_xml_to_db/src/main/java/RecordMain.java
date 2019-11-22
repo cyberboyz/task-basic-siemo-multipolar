@@ -63,7 +63,7 @@ public class RecordMain {
             con.addRequestProperty("Accept-Language", "en-US,en;q=0.8");
             con.addRequestProperty("Referer", "https://www.google.com/");
             con.connect();
-            //con.getInputStream();
+
             int resCode = con.getResponseCode();
             if (resCode == HttpURLConnection.HTTP_SEE_OTHER
                     || resCode == HttpURLConnection.HTTP_MOVED_PERM
