@@ -1,0 +1,16 @@
+AuthController:
+  register: Register as an admin
+  login: Log in as an admin with a username and a password
+EmployeeController:
+  getAllEmployees: Retrieve all employees data from database
+  getEmployeeById: Retrieve a certain employee data based on an ID
+  createEmployee: Create an employee
+  updateEmployeePut: Update a certain employee data based on an ID using PUT
+  updateEmployeePatch: Update a certain employee data based on an ID using PATCH
+  deleteEmployee: Delete a certain employee data based on an ID
+EmployeeGroupController:
+  getAllEmployeeGroups: Retrieve all employee groups data from database
+  getEmployeeGroupById: Retrieve a certain employee group data based on an ID
+  createEmployeeGroup: Create an employee group
+  updateEmployeeGroup: Update a certain employee group data based on an ID
+  deleteEmployeeGroup: Delete a certain employee group data based on an ID

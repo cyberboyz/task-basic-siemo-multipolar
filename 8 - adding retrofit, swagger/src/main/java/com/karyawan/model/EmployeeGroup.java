@@ -1,6 +1,8 @@
 package com.karyawan.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 import javax.persistence.*;
 
@@ -8,8 +10,14 @@ import javax.persistence.*;
 @Table(name = "golongan")
 public class EmployeeGroup {
 
+    @SerializedName("id")
+    @Expose
     private long id;
+    @SerializedName("name")
+    @Expose
     private String name;
+    @SerializedName("monthly_salary")
+    @Expose
     private double monthlySalary;
 
     public EmployeeGroup() {

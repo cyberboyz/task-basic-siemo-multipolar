@@ -1,20 +1,20 @@
 package com.karyawan.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import javax.persistence.*;
 
 @Entity
+@Table(name = "admin")
 public class Admin {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long adminId;
     private String firstName;
     private String lastName;
     private String email;
     private String password;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long getAdminId() {
         return adminId;
     }
@@ -23,6 +23,8 @@ public class Admin {
         this.adminId = adminId;
     }
 
+    @Column(name = "first_name", nullable = false)
+    @JsonProperty("first_name")
     public String getFirstName() {
         return firstName;
     }
@@ -31,6 +33,8 @@ public class Admin {
         this.firstName = firstName;
     }
 
+    @Column(name = "last_name", nullable = false)
+    @JsonProperty("last_name")
     public String getLastName() {
         return lastName;
     }
@@ -39,6 +43,7 @@ public class Admin {
         this.lastName = lastName;
     }
 
+    @Column(name = "email", nullable = false)
     public String getEmail() {
         return email;
     }
@@ -47,6 +52,7 @@ public class Admin {
         this.email = email;
     }
 
+    @Column(name = "password", nullable = false)
     public String getPassword() {
         return password;
     }

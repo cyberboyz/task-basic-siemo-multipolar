@@ -8,6 +8,8 @@ import javax.validation.Valid;
 
 import com.karyawan.exception.ResourceNotFoundException;
 import com.karyawan.model.Employee;
+import com.karyawan.model.EmployeeGroup;
+import com.karyawan.repository.EmployeeGroupRepository;
 import com.karyawan.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -25,6 +27,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
     @Autowired
     private EmployeeRepository employeeRepository;
+    @Autowired
+    private EmployeeGroupRepository employeeGroupRepository;
 
     @GetMapping("/employees")
     public List<Employee> getAllEmployees() {
@@ -40,8 +44,11 @@ public class EmployeeController {
     }
 
     @PostMapping("/employees")
-    public Employee createEmployee(@Valid @RequestBody Employee employee) {
-        return employeeRepository.save(employee);
+    public ResponseEntity<Employee> createEmployee(@Valid @RequestBody Employee employee) throws ResourceNotFoundException {
+        Employee returnedEmployee = employeeRepository.save(employee);
+        EmployeeGroup employeeGroup = employeeGroupRepository.findById(employee.getEmployeeGroup().getId()).orElseThrow(() -> new ResourceNotFoundException("Employee group not found for this id :: " + employee.getEmployeeGroup().getId()));
+        returnedEmployee.setEmployeeGroup(employeeGroup);
+        return ResponseEntity.ok(returnedEmployee);
     }
 
     @PutMapping("/employees/{id}")
