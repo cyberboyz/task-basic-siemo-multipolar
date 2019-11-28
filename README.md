@@ -179,6 +179,8 @@ Aplikasi ini bisa dijalankan dengan menjalankan server pada kelas MultithreadedS
 
 Aplikasi ini digunakan untuk menampilkan data file text ke dalam web dengan collection. Program ini dapat dijalankan dengan Tomcat dan aplikasi dapat diakses melalui URL http://localhost:8080/data_karyawan. Golongan dari tiap karyawan bisa diakses dengan klik link `golongan` yang ada di kolom detail.
 
+![Peek recording itself](https://github.com/cyberboyz/task-basic-siemo-multipolar/blob/master/asset/5-collection.gif)
+
 ## 6 - Convert XML to DB
 
 Aplikasi ini digunakan untuk mengubah XML dari URL ke dalam database. Sebelum menjalankan aplikasi, masukkan perintah SQL berikut untuk konfigurasi, membuat database, dan membuat tabel.
